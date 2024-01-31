@@ -1,0 +1,22 @@
+{
+  "name": "eslint-marmelab",
+  "author": "marmelab https://marmelab.com/",
+  "version": "1.0.0",
+  "description": "An ESLint plugin with marmelab rules magical subset ",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/**/*.js",
+    "reinstall": "rm -rf node_modules && yarn"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-plugin-marmelab": "file:packages/eslint"
+  }
+}
